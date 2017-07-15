@@ -46,7 +46,7 @@ end
 --[[
 local hmf = require(dirLuaHMF)
 print( hmf.mgcd({72,9}) )
--- 72,9,12,6,54: 9
+-- 72,9: 9
 
 print( hmf.mgcd({72,9,12,6,54}) )
 -- 72,9,12,6,54: 3
