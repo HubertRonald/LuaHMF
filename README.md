@@ -6,6 +6,36 @@ Add [LuaHMF.lua](https://github.com/HubertRonald/LuaHMF/blob/master/LuaHMF.lua) 
 Call it using __require__ function.</br>
 It will return a table containing a set of functions.
 
+## Full API Overview
+
+* gcd = function (m, n)                   : helper greatest common divisor
+* lcm = function (m, n)                   : helper least common multiple
+* mgcd = function (list)                  : greatest common divisor for two and more than two numbers
+* mlcm = function                         : least common multiple for two and more than two numbers
+
+## Sample
+
+```
+--[[
+--------------------------------------------
+  sample
+--------------------------------------------
+]]
+local hmf = require(dirLuaHMF)
+print( hmf.mgcd({72,9}) )
+-- 72,9,12,6,54: 9
+
+print( hmf.mgcd({72,9,12,6,54}) )
+-- 72,9,12,6,54: 3
+
+print( hmf.mlcm({72,9,12,6,54}) )
+-- 72,9,12,6,54: 216
+
+print( hmf.mlcm({9,12}) )
+-- 9,12: 36
+--------------------------------------------
+```
+
 ## Built With
 
 * [Visual Studio Code](https://code.visualstudio.com/) - The web framework used
