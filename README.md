@@ -1,5 +1,5 @@
 # LuaHMF
-Lua Helper Math Functions (LuaHMF) is a small library which offers a clean, minimalistic but powerful API for greatest common diviso, greatest common divisor for many numbers and coming soon more functions.
+Lua Helper Math Functions (LuaHMF) is a small library which offers a clean, minimalistic but powerful API for greatest common divisor, least common multiple for two or more numbers and coming soon more functions.
 
 ## Usage
 Add [LuaHMF.lua](https://github.com/HubertRonald/LuaHMF/blob/master/LuaHMF.lua) file inside your project.<br/>
